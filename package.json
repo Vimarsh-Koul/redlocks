@@ -1,0 +1,24 @@
+{
+  "name": "redlocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vimarsh-Koul/redlocks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vimarsh-Koul/redlocks/issues"
+  },
+  "homepage": "https://github.com/Vimarsh-Koul/redlocks#readme",
+  "dependencies": {
+    "ioredis": "^5.4.2",
+    "redlock": "^5.0.0-beta.2"
+  }
+}
