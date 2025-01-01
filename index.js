@@ -28,7 +28,7 @@ async function updateInventory(productId, quantity) {
 
         // Release the lock
         await lock.release();
-        console.log("Lock released.");
+        console.log("Lock released for the product");
     } catch (error) {
         console.error("Failed to acquire lock or update inventory:", error);
     }
